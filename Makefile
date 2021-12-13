@@ -2,7 +2,7 @@ lab: lab.c
 	gcc lab.c -o lab
 
 clean:
-	rm process
+	rm lab
 
 prog2: main2.c
 	gcc main2.c -o prog2
